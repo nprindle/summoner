@@ -22,6 +22,7 @@ let
     postUnpack = ''
       cp --remove-destination ${./README.md} $sourceRoot/README.md
       cp --remove-destination ${./LICENSE} $sourceRoot/LICENSE
+      cp --remove-destination ${./CHANGELOG.md} $sourceRoot/CHANGELOG.md
     '';
   });
 
